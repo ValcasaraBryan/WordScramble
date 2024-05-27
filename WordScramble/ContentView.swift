@@ -117,6 +117,10 @@ struct ContentView: View {
         return true
     }
     
+    
+    /*
+        Put a text view somewhere so you can track and show the player’s score for a given root word. How you calculate score is down to you, but something involving number of words and their letter count would be reasonable.
+     */
     func wordError(title: String, message: String) {
         errorTitle = title
         errorMessage = message
